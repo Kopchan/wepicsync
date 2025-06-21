@@ -1,1 +1,1 @@
-# wepicsync
+# WepicSync
