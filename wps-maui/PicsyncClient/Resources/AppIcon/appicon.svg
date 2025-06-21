@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+	<title>PeekWebPics</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(127.765,-73.765,73.765,127.765,-46.765,27)">
+			<stop offset="0" stop-color="#296f7f"/>
+			<stop offset="1" stop-color="#42bfea"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<g id="&lt;Слой&gt;">
+		<g id="&lt;Слой&gt;">
+			<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m108 0v108h-108v-108z"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,43 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+	<title>PeekWebPics</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-50.4,57.6,0,17.55,97.2)">
+			<stop offset="0" stop-color="#191919"/>
+			<stop offset="1" stop-color="#4d4d4d"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-36,57.6,0,57.15,97.2)">
+			<stop offset="0" stop-color="#282828"/>
+			<stop offset="1" stop-color="#4d4d4d"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(12.294,-21.294,21.294,12.294,49.806,45.9)">
+			<stop offset="0" stop-color="#ff5500"/>
+			<stop offset="1" stop-color="#fbb03b"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #ffffff;stroke-miterlimit:10;stroke-width: 3.6 } 
+		.s1 { fill: url(#g1) } 
+		.s2 { fill: url(#g2) } 
+		.s3 { fill: url(#g3) } 
+	</style>
+	<g id="&lt;Слой&gt;">
+		<g id="&lt;Слой&gt;">
+		</g>
+		<g id="&lt;Слой&gt;">
+			<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m54 84.6c-7 0-12.6-13.7-12.6-30.6 0-16.9 5.6-30.6 12.6-30.6 7 0 12.6 13.7 12.6 30.6 0 16.9-5.6 30.6-12.6 30.6z"/>
+			<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m23.4 54h61.2"/>
+			<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m28.8 72c14.7-9 35.7-9 50.4 0"/>
+			<path id="&lt;Path&gt;" class="s0" d=""/>
+			<path id="&lt;Path&gt;" class="s0" d=""/>
+			<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m28.8 36c14.7 9.3 35.7 9.3 50.4 0"/>
+			<path id="&lt;Path&gt;" fill-rule="evenodd" class="s0" d="m54 84.6c-16.9 0-30.6-13.7-30.6-30.6 0-16.9 13.7-30.6 30.6-30.6 16.9 0 30.6 13.7 30.6 30.6 0 16.9-13.7 30.6-30.6 30.6z"/>
+		</g>
+		<g id="&lt;Слой&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m68.4 97.2l-28.8-50.4-28.8 50.4z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m39.6 97.2l28.8-36 28.8 36z"/>
+		</g>
+		<g id="&lt;Слой&gt;">
+			<path id="&lt;Path&gt;" fill-rule="evenodd" class="s3" d="m66.6 50.4c-5 0-9-4-9-9 0-5 4-9 9-9 5 0 9 4 9 9 0 5-4 9-9 9z"/>
+		</g>
+	</g>
+</svg>
