@@ -21,7 +21,7 @@ yarn-error.log
 /.vscode
 /.htaccess
 robots.txt
-
+desktop.ini
 **/caddy
 frankenphp
 frankenphp-worker.php

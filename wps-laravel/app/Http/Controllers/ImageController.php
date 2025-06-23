@@ -647,12 +647,12 @@ class ImageController extends Controller
         $path = Storage::path('images'. $image->album->path . $image->name);
         //dd(base64url_encode(hash_file('xxh3', $path, true)));
         //ob_end_clean();
-        //return response()->file($path);
+        return response()->file($path);
         //dd($path);
-        return response('ok', 200)->withHeaders([
-            'X-Sendfile' => $path,
-            'Content-Type' => File::mimeType($path),
-        ]);
+        //return response('ok', 200)->withHeaders([
+        //    'X-Sendfile' => $path,
+        //    'Content-Type' => File::mimeType($path),
+        //]);
     }
 
     public function download($albumHash, $imageHash)

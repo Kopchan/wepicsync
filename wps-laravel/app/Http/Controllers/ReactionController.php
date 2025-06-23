@@ -54,18 +54,10 @@ class ReactionController extends Controller
 
         $image = Image::getByHash($albumHash, $imageHash);
 
-        $reactionImage = ReactionImage
-            ::where('image_id', $image->id)
-            ->where('reaction_id', $allowedReaction->id)
-            ->where('user_id', $request->user()->id)
-            ->first();
-        if ($reactionImage)
-            throw new ApiException(409, 'You already set this reaction');
-
-        ReactionImage::create([
-            'image_id'=>$image->id,
-            'reaction_id'=> $allowedReaction->id,
-            'user_id'=> request()->user()->id
+        ReactionImage::firstOrCreate([
+            'image_id'=> $image->id,
+            'reaction_id' => $allowedReaction->id,
+            'user_id' => $request->user()->id,
         ]);
         return response(null, 204);
     }
